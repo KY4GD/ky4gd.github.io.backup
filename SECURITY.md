@@ -22,3 +22,7 @@ The version of the project affected
 Your name and contact information (optional)
 
 We will review the report within 7 business days and provide an initial response. If the issue is confirmed as a vulnerability, we will work on a fix and release an update as soon as possible. You'll receive updates on the status of the fix throughout the process.
+
+If the report is determined to not be a vulnerability, we will explain our reasoning and thank you for your submission.
+Thank you for helping us improve the security of our project!
+How does this look? Please feel free to modify the content and details as needed to fit your specific requirements. Let me know if you have any other questions.
