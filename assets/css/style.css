@@ -1,8 +1,115 @@
-/* Main Styles for 93/93 */
-:root {
-    --dark-bg: #121212;
-    --header-bg: rgba(0, 0, 0, 0.9);
-    --text-color: #ffffff;
-    --link-hover: #4a90e2;
-    --nav-spacing: 2rem;
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('/assets/images/water-effect.svg') repeat-x;
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.site-title {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.site-title a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.subtitle {
+    margin: 0.5rem 0 2rem;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* Navigation */
+.main-nav {
+    background: rgba(0,0,0,0.8);
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    color: #4a90e2;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.title-banner {
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem 0;
+    background: rgba(0,0,0,0.5);
+    border-radius: 4px;
+    font-size: 2rem;
+}
+
+.featured-image {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.featured-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Footer Navigation */
+.footer-nav {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.footer-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.footer-nav a:hover {
+    opacity: 1;
 }
