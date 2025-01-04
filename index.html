@@ -1,122 +1,223 @@
+// Directory structure first (create-structure.bat):
+@echo off
+mkdir assets\css
+mkdir assets\images
+mkdir _includes
+
+// File: index.html
 <!DOCTYPE html>
 <html lang="en-US" data-scheme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="profile" href="https://gmpg.org/xfn/11">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <title>93/93 - Technoshamanism, 5GW, Cyberpunk, Thelema</title>
     
-    <!-- Site Verification Tags -->
-    <meta name="google-site-verification" content="Ju6H-xj8EUCzC1ZmqudZWX5BlhvYpOHLxiLlZn4U5rI">
-    <meta name="msvalidate.01" content="B3A9182ED80F4A2B081AC3ADE3B27994">
-    <meta name="p:domain_verify" content="2614332012071">
-    <meta name="yandex-verification" content="4a449d6c70791611">
-
-    <!-- SEO -->
-    <title>Technoshamanism, 5GW, Cyberpunk, 93/93, Thelema</title>
-    <meta name="description" content="Occultism, Personal Realization">
-    <link rel="canonical" href="/">
-
-    <!-- Open Graph -->
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Calling out 5GW and Dark Psychology">
-    <meta property="og:description" content="Technoshamanism versus Memetic Magick">
-    <meta property="og:url" content="/">
-    <meta property="og:site_name" content="93/93">
-    <meta property="article:publisher" content="https://www.facebook.com/profile.php?id=100093031806694">
-    <meta property="article:modified_time" content="2024-12-27T23:25:17+00:00">
-    <meta property="og:image" content="/wp-content/uploads/2024/12/unnamed.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@418kaleigawd418">
-
     <!-- Stylesheets -->
-    <link rel="stylesheet" id="enhanced-thelemic-calendar-css" href="/assets/css/wp-content.css" media="all">
-    <link rel="stylesheet" id="wpo_min-header-0-css" href="/assets/css/wp-content.css" media="all">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/water-effect.css">
     
-    <!-- Scripts -->
-    <script src="/assets/js/wp-content.js" id="wpo_min-header-0-js"></script>
-    <script src="https://www.googletagmanager.com/gtag/js?id=GT-5N298LGJ" async></script>
-
     <!-- Favicons -->
     <link rel="icon" href="/wp-content/uploads/2024/12/cropped-star-32x32.jpg" sizes="32x32">
-    <link rel="icon" href="/wp-content/uploads/2024/12/cropped-star-192x192.jpg" sizes="192x192">
-    <link rel="apple-touch-icon" href="/wp-content/uploads/2024/12/cropped-star-180x180.jpg">
-    <meta name="msapplication-TileImage" content="/wp-content/uploads/2024/12/cropped-star-270x270.jpg">
 </head>
 
-<body class="home page-template-default page page-id-9288 wp-embed-responsive enweby-fullscreen-background">
-    <div class="site-overlay"></div>
-
-    <div id="page" class="site">
-        <div class="site-inner">
-            <!-- Header -->
-            <header id="masthead" class="site-header">
-                <div class="header header-center">
-                    <div class="cs-container-fluid">
-                        <div class="header-col header-col-center">
-                            <div>
-                                <a href="/" class="site-title">93/93</a>
-                                <p class="site-description">Every man and every woman is a star</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Navigation included from _includes/navigation.html -->
-            </header>
-
-            <!-- Main Content -->
-            <main id="main" class="site-main">
-                <article class="page-content">
-                    <div class="wp-block-cover aligncenter">
-                        <h2 class="wp-block-heading has-text-align-center has-large-font-size" id="h-love-is-the-law">Love is the Law</h2>
-                    </div>
-
-                    <figure class="wp-block-image size-full is-resized">
-                        <img decoding="async" width="960" height="360" src="/wp-content/uploads/2024/12/unnamed.jpg" alt="" class="wp-image-8881" 
-                             srcset="/wp-content/uploads/2024/12/unnamed.jpg 960w, /wp-content/uploads/2024/12/unnamed-800x300.jpg 800w" 
-                             sizes="(max-width: 960px) 100vw, 960px">
-                    </figure>
-
-                    <div class="wp-block-cover">
-                        <h2 class="wp-block-heading has-text-align-center has-large-font-size" id="h-love-under-will">Love under Will</h2>
-                    </div>
-
-                    <div style="text-align: center;">
-                        <a style="color: white; margin: 0 15px; text-decoration: none;" href="/" target="_blank">Home</a>
-                        <a style="color: white; margin: 0 15px; text-decoration: none;" href="/an-homage-to-no-reason" target="_blank">About</a>
-                        <a style="color: white; margin: 0 15px; text-decoration: none;" href="/on-technoshamanism-and-magick/" target="_blank">Blog</a>
-                    </div>
-                </article>
-            </main>
-
-            <!-- Footer included from _includes/footer.html -->
-        </div>
+<body class="home dark-theme">
+    <div class="water-effect-container">
+        <div class="water-effect"></div>
     </div>
-
-    <!-- Search Modal -->
-    <div class="site-search" id="search">
-        <button type="button" class="close"></button>
-        <div class="form-container">
-            <div class="cs-container">
-                <div class="site-search-wrap">
-                    <form role="search" method="get" class="search-form form" action="/">
-                        <div class="cs-input-group">
-                            <input type="search" value="" name="s" class="search-field form-control" placeholder="Enter Keyword" required>
-                            <button type="submit" class="search-submit">
-                                <span>Search</span>
-                                <span><i class="cs-icon cs-icon-search"></i></span>
-                            </button>
-                        </div>
-                    </form>
-                    <p>Input your search keywords and press Enter.</p>
-                </div>
-            </div>
+    
+    <header class="site-header">
+        <div class="header-content">
+            <h1 class="site-title"><a href="/">93/93</a></h1>
+            <p class="site-description">Every man and every woman is a star</p>
         </div>
-    </div>
+        
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="/">HOME</a></li>
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="/blog">BLOG</a></li>
+                <li><a href="/music">MUSIC</a></li>
+                <li><a href="/gallery">GALLERY</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Scripts -->
-    <script src="/assets/js/wp-content.js"></script>
+    <main class="site-content">
+        <div class="hero-section dark">
+            <h2>Love is the Law</h2>
+        </div>
+
+        <div class="featured-image">
+            <img src="/wp-content/uploads/2024/12/unnamed.jpg" 
+                 alt="Magical cats in a field"
+                 width="960" height="360">
+        </div>
+
+        <div class="hero-section dark">
+            <h2>Love under Will</h2>
+        </div>
+
+        <nav class="bottom-navigation">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/blog">Blog</a></li>
+            </ul>
+        </nav>
+    </main>
 </body>
 </html>
+
+// File: assets/css/style.css
+:root {
+    --dark-bg: #121212;
+    --header-bg: rgba(0, 0, 0, 0.9);
+    --text-color: #ffffff;
+    --link-hover: #4a90e2;
+    --nav-spacing: 2rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--dark-bg);
+    color: var(--text-color);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.site-header {
+    position: relative;
+    z-index: 2;
+    padding: 2rem 0;
+    text-align: center;
+    background: transparent;
+}
+
+.header-content {
+    padding: 2rem 0;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.site-title a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.site-description {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Navigation */
+.main-navigation {
+    background: var(--header-bg);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: var(--nav-spacing);
+}
+
+.main-navigation a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+}
+
+.main-navigation a:hover {
+    color: var(--link-hover);
+}
+
+/* Content */
+.site-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 3rem 0;
+    margin: 2rem 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.hero-section h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.featured-image {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.featured-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.bottom-navigation {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.bottom-navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: var(--nav-spacing);
+}
+
+.bottom-navigation a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.bottom-navigation a:hover {
+    color: var(--link-hover);
+}
+
+// File: assets/css/water-effect.css
+.water-effect-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.water-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: url('/assets/images/water-effect.svg') repeat-x;
+    background-size: cover;
+    opacity: 0.7;
+}
